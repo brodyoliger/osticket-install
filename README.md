@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This example outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+This example covers the prerequisites and the installation of the open-source help desk ticketing system osTicket. The installation of osTicket will be done from scratch and all major steps in this process will be listed with brief descriptions.<br />
 
 
 
@@ -30,7 +30,7 @@ This example outlines the prerequisites and installation of the open-source help
 <img src="https://i.imgur.com/vEVpyLB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Created resource group, Windows 10 21H2 Virtual Machine within resource group as well as virtual network for VM to use. Then connected to the VMs public IP address via Remote Desktop to gain control and begin steps to get osTicket installed and running.
+Within Microsoft Azure I created resource group, Windows 10 21H2 Virtual Machine within resource group as well as virtual network for VM to use. I then connected to the VMs public IP address via Remote Desktop to gain control and begin steps to get osTicket installed and running.
 </p>
 <br />
 
@@ -54,6 +54,6 @@ Downloaded, installed and configured all programs required to both run the osTic
 <img src="https://i.imgur.com/VAf4oFR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After osTicket installation and SQL Database configuration it was time for the Administrator as well as Agent accounts to be created and configured, given their own teams, groups, permissions and so on. End-user accounts would also be made to fully simulate the ticket lifecycle from creation by end-user to resolution by help desk agent.
+After osTicket installation and SQL Database configuration it was time for the Administrator as well as Agent accounts to be created and configured, given their own teams, groups, permissions. End-user accounts would also be made to fully simulate the ticket lifecycle from creation by end-user to resolution by help desk agent.
 <br />
 
