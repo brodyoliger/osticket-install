@@ -54,6 +54,6 @@ Downloaded, installed and configured all programs required to both run the osTic
 <img src="https://i.imgur.com/VAf4oFR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After osTicket installation and SQL Database configuration it was time for the Administrator as well as Agent accounts to be created and configured, given their own teams, groups, permissions. End-user accounts would also be made to fully simulate the ticket lifecycle from creation by end-user to resolution by help desk agent.
+After osTicket installation and SQL Database configuration it was time for the Administrator as well as Agent accounts to be created and configured, assigned their own access, permissions and teams. End-user accounts would also be made to fully simulate the ticket lifecycle from creation by end-user to resolution by help desk agent.
 <br />
 
