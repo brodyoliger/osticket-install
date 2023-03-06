@@ -3,13 +3,13 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+This example outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
+- Microsoft Azure (Windows Virtual Machine and Network)
 - Remote Desktop
 - Internet Information Services (IIS)
 
@@ -19,34 +19,41 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Windows 10 Virtual Machine in Azure and Remote Desktop
+- Internet Information Services and CGI enabled
+- Programs needed to install and run osTicket
+- IIS and PHP manager to configure and run osTicket
 
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vEVpyLB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Created resource group, Windows 10 21H2 Virtual Machine within resource group as well as virtual network for VM to use. Then connected to the VMs public IP address via Remote Desktop to gain control and begin steps to get osTicket installed and running.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/kmHNZ0W.png" height="80%" width="80%" alt="IIS"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Enabled Internet Information Services as well as CGI within Control Panel to allow for PHP manager neede for osTicket and installation of the osTicket program itself.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/9Y1xjdH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Downloaded, installed and configured all programs required to both run the osTicket program and the SQL Database(HeidiSQL) for osTicket to use.
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/VAf4oFR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+After osTicket installation and SQL Database configuration it was time for the Administrator as well as Agent accounts to be created and configured, given their own teams, groups, permissions and so on. End-user accounts would also be made to fully simulate the ticket lifecycle from creation by end-user to resolution by help desk agent.
+<br />
+
