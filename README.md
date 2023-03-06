@@ -27,7 +27,7 @@ This example covers the prerequisites and the installation of the open-source he
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/vEVpyLB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vEVpyLB.png" height="80%" width="80%" alt="osticket"/>
 </p>
 <p>
 Within Microsoft Azure I created resource group, Windows 10 21H2 Virtual Machine within resource group as well as virtual network for VM to use. I then connected to the VMs public IP address via Remote Desktop to gain control and begin steps to get osTicket installed and running.
@@ -35,7 +35,7 @@ Within Microsoft Azure I created resource group, Windows 10 21H2 Virtual Machine
 <br />
 
 <p>
-<img src="https://i.imgur.com/kmHNZ0W.png" height="80%" width="80%" alt="IIS"/>
+<img src="https://i.imgur.com/kmHNZ0W.png" height="80%" width="80%" alt="osticket"/>
 </p>
 <p>
 Enabled Internet Information Services as well as CGI within Control Panel to allow for PHP manager neede for osTicket and installation of the osTicket program itself.
@@ -43,7 +43,7 @@ Enabled Internet Information Services as well as CGI within Control Panel to all
 <br />
 
 <p>
-<img src="https://i.imgur.com/9Y1xjdH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/9Y1xjdH.png" height="80%" width="80%" alt="osticket"/>
 </p>
 <p>
 Downloaded, installed and configured all programs required to both run the osTicket program and the SQL Database(HeidiSQL) for osTicket to use.
@@ -51,7 +51,7 @@ Downloaded, installed and configured all programs required to both run the osTic
 <br />
 
 <p>
-<img src="https://i.imgur.com/VAf4oFR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VAf4oFR.png" height="80%" width="80%" alt="osticket"/>
 </p>
 <p>
 After osTicket installation and SQL Database configuration it was time for the Administrator as well as Agent accounts to be created and configured, assigned their own access, permissions and teams. End-user accounts would also be made to fully simulate the ticket lifecycle from creation by end-user to resolution by help desk agent.
