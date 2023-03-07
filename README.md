@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This example covers the prerequisites and the installation of the open-source help desk ticketing system osTicket. The installation of osTicket will be done from scratch and all major steps in this process will be listed with brief descriptions.<br />
+This explanation covers the prerequisites and the installation of the open-source help desk ticketing system osTicket. The installation of osTicket will be done from scratch and all major steps in this process will be listed with brief descriptions.<br />
 
 
 
