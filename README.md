@@ -30,7 +30,7 @@ This example covers the prerequisites and the installation of the open-source he
 <img src="https://i.imgur.com/vEVpyLB.png" height="80%" width="80%" alt="osticket"/>
 </p>
 <p>
-Within Microsoft Azure I created resource group, Windows 10 21H2 Virtual Machine within resource group as well as virtual network for VM to use. I then connected to the VMs public IP address via Remote Desktop to gain control and begin steps to get osTicket installed and running.
+Within Microsoft Azure I created a resource group, Windows 10 21H2 Virtual Machine within resource group as well as virtual network for VM to use. I then connected to the VMs public IP address via Remote Desktop to gain control and begin steps to get osTicket installed and running.
 </p>
 <br />
 
